@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../RCA_16bit.srcs/sources_1/new/RCA_16bit.v" \
+"../../../../RCA_16bit.srcs/sim_1/new/RCA_16bit_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
